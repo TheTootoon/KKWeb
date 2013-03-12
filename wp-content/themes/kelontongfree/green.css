@@ -1,0 +1,56 @@
+.navigation a:hover,.navigation a:focus {
+color:#79ca11;
+}
+
+.left-nav a {
+color:#79ca11 !important;
+background:url(img/register.png) 0 0 no-repeat;
+}
+
+.left-nav .login a {
+background: none;
+padding-left: 0;
+}
+
+#content h2 {
+color:#104000;
+text-shadow:1px 1px #b2c46a;
+background:url(img/featured.png) 0 0 no-repeat;
+}
+
+.panel-button {
+color:#fff;
+text-shadow:1px 1px 0 #537306;
+background: #91C825;
+background: -moz-linear-gradient(top, #91C825 0%, #70AB15 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#91C825), color-stop(100%,#70AB15));
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91C825', endColorstr='#70AB15',GradientType=0 );
+}
+
+.panel-button:hover,.panel-button:focus {
+background-position:0 0;
+background: #70AB15;
+background: -moz-linear-gradient(top, #70AB15  0%, #91C825 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#70AB15), color-stop(100%,#91C825));
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#70AB15', endColorstr='#91C825',GradientType=0 );
+}
+
+#panel:after {
+border-radius:0 0 5px 5px;
+box-shadow:1px 1px 3px #333;
+-webkit-border-radius:0 0 5px 5px;
+-webkit-box-shadow:1px 1px 3px #333;
+-moz-border-radius:0 0 5px 5px;
+-moz-box-shadow:1px 1px 3px #333;
+background:#67a311;
+}
+
+#panel li a {
+color:#fff;
+background:#67a311;
+border-bottom:solid 1px #81c11a;
+}
+
+#panel li a:hover {
+background:#8ec524;
+}

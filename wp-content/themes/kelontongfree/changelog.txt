@@ -1,0 +1,16 @@
+2012.06.18 - Version 1.3
+ * Add Dashboard Tokokoo
+ * Compatible with WordPress 3.4
+
+2011.06.29 - Version 1.2
+ * Compatible with WPEC 3.8.5
+ * Compatible with WordPress 3.2
+ 
+2011.06.29 - Version 1.1
+ * Compatible with WPEC 3.8.3
+ * Compatible with WordPress 3.1.3
+ * Add Changelog menu
+ * Add Buy theme menu
+
+2011.06.21 - Version 1.0
+ * Initialized

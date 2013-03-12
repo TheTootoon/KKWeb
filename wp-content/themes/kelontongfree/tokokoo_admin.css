@@ -1,0 +1,71 @@
+/* News Page tokokoo on dahsboard */
+#tokokoo-widget .hndle{
+    -moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	background: url(img/bg_top.png) repeat-x top center;
+	color: #71777F;
+	display: block;
+	font: bold 16px/30px arial !important;
+	padding: 0 10px;
+	text-shadow: 1px 1px 1px #fff;
+}
+#tokokoo-widget .inside ul li a{
+    font-size:1.2em;
+    
+    color:#2B78E4;
+    text-decoration:none;
+    font:13px/146% arial;
+    background-repeat:no-repeat;   
+    font-weight:bold;  
+    color:#2B78E4;
+}
+
+.stream {
+    background:url("img/bg_header.png") repeat-x scroll center bottom #F7F8F9;
+    border:1px solid #DDDFE4;
+    bottom:-11px;
+    height:40px;
+    left:-11px;
+    padding:10px;
+    position:relative;
+    width:100%;
+}
+.stream .logo-small {
+    float:left;
+    margin-left:10px;
+    margin-top:9px;
+}
+
+.logo-small {
+    background:url("img/logo-small.png") no-repeat scroll 0 0 transparent;
+    display:block;
+    height:22px;
+    overflow:hidden;
+    text-indent:-1000px;
+    width:106px;
+}
+.stream ul {
+    float:right;
+    list-style:none outside none;
+    margin-right:10px;
+    margin-top:9px;
+}
+
+.stream ul li {
+    display:inline;
+    line-height:22px;
+    border: none !important;
+}
+
+.stream ul li a {    
+    background-repeat:no-repeat;
+    font-size:1.1em;
+    font-weight:bold;
+    height:16px;
+    line-height:16px;
+    margin-left:10px;
+    padding-left:20px;
+    color:#2B78E4;
+}
