@@ -44,8 +44,7 @@ class IclUtility{
 
 
         $dataArray = array(
-                                'post__in' => $sticky_array,
-                                'post_type' => $postType,
+                                'tag' => 'featured',
                                 'posts_per_page' => $limit,
                                 'paged' => $page
                          );
