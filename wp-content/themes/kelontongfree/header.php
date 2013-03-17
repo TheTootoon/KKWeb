@@ -73,6 +73,7 @@
 				if ( function_exists( 'wpsc_display_categories' ) ) :
 		?>
 
+				<a class="panel-button" href="#">Browse Category</a>
 				<ul id="panel">
 					<?php wpsc_start_category_query( array( 'category_group'=> 1, 'show_thumbnails'=> 0 ) ); ?>
 						<li>
@@ -83,6 +84,7 @@
 
 		<?php else: // wpsc is not installed, so display list of categories instead. ?>
 
+				<a class="panel-button" href="#">Browse Category</a>
 				<ul id="panel">
 					<?php wp_list_categories('hierarchical=0&title_li='); ?>
 				</ul>
