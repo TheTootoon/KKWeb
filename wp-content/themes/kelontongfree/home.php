@@ -22,8 +22,8 @@
 			if ( have_posts() ) : while ( have_posts() ) : the_post(); 
 ?>			
 				<section class="entry">
-					<h3><a href="<?php echo get_permalink( get_the_ID() ); ?>"><?php the_title() ?></a></h3>
-					<p><?php echo $iclUtility->getProductImage( get_the_ID(), 500, 300 ); ?></p>
+					<h3><a href="<?php echo get_permalink( get_the_ID() ); ?>"><?php the_title() ?></a></h3><?php  _e( 'View Cart' , 'cart66' ); ?>
+					<p><a href="<?php echo get_permalink( get_the_ID() ); ?>"><?php echo $iclUtility->getProductImage( get_the_ID(), 500, 300 ); ?></a></p>
 					<p><?php echo myExcerpts( false, 50 ); ?></p>					
 					<p class="more-info"><a href="<?php echo get_permalink( get_the_ID() ); ?>" class="medium awesome">Voir la page produit</a></p>
 				</section>
