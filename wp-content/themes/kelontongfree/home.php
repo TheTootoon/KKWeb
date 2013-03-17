@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<article id="content">
-		<h2 class="featured-title">Featured</h2>
+		<h2 class="featured-title">En avant</h2>
 		
 <?php 
 		$iclUtility->getFeatureProduct(1,5); 
@@ -25,7 +25,7 @@
 					<h3><a href="<?php echo get_permalink( get_the_ID() ); ?>"><?php the_title() ?></a></h3>
 					<p><?php echo $iclUtility->getProductImage( get_the_ID(), 500, 300 ); ?></p>
 					<p><?php echo myExcerpts( false, 50 ); ?></p>					
-					<p class="more-info"><a href="<?php echo get_permalink( get_the_ID() ); ?>" class="medium awesome">more information</a></p>
+					<p class="more-info"><a href="<?php echo get_permalink( get_the_ID() ); ?>" class="medium awesome">Voir la page produit</a></p>
 				</section>
 								
 <?php 
@@ -44,8 +44,8 @@
 		$total = $wp_query->post_count;
 		if ( $total > 4 ) :
 ?>		
-		<a class="prev" href="javascript:stepcarousel.stepBy('products', -1)">Previous</a>
-		<a class="next" href="javascript:stepcarousel.stepBy('products', 1)">Next</a>
+		<a class="prev" href="javascript:stepcarousel.stepBy('products', -1)">Précédent</a>
+		<a class="next" href="javascript:stepcarousel.stepBy('products', 1)">Suivant</a>
 <?php
 		endif;
 ?>
@@ -60,7 +60,7 @@
 			<h3><a href="<?php echo get_permalink(get_the_ID())?>"><?php the_title()?></a></h3>
 			<p class="imgwrap"><?php echo $iclUtility->getProductImage( get_the_ID(), 175, 150); ?> </p>
 			<p><?php echo myExcerpts(false,20); ?></p>
-			<p class="more-info"><a href="<?php echo get_permalink(get_the_ID())?>" class="medium awesome">more information</a></p>
+			<p class="more-info"><a href="<?php echo get_permalink(get_the_ID())?>" class="medium awesome">Voir la page produit</a></p>
 		</section>
 <?php
 			if ( $count % 4 == 0 ) : 

@@ -11,7 +11,7 @@
 		
 		<div class="navigation credit">
 			Copyright &copy; <?php echo date('Y'); ?> <a href="#"><?php bloginfo( 'name' ); ?></a> | 
-			Powered by <a href="http://wordpress.org"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/wp-icon.png" alt="WordPress" title="WordPress" /></a> and <a href="http://getshopped.org">WPEC</a>. Designed by <a href="http://tokokoo.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/tokokoo.png" alt="Tokokoo.com" title="Tokokoo.com" /></a>
+			Powered by <a href="http://wordpress.org"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/wp-icon.png" alt="WordPress" title="WordPress" /></a>. Designed by <a href="http://tokokoo.com"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/tokokoo.png" alt="Tokokoo.com" title="Tokokoo.com" /></a>
 		</div>	
 
 	</footer>

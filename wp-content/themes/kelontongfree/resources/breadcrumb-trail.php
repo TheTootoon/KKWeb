@@ -62,7 +62,7 @@ function breadcrumb_trail( $args = array() ) {
 		'before' => '<span class="breadcrumb-title">' . __( 'Browse:', $textdomain ) . '</span>',
 		'after' => false,
 		'front_page' => true,
-		'show_home' => __( 'Home', $textdomain ),
+		'show_home' => __( 'Accueil', $textdomain ),
 		'echo' => true
 	);
 
