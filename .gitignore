@@ -166,3 +166,4 @@ pip-log.txt
 *.sublime-project
 *.sublime-workspace
 wp-content/uploads
+/wp-config.php
