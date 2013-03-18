@@ -329,7 +329,7 @@ color:#fff !important;
 
 #header {
 width:860px;
-height:80px;
+height:100px;
 position:relative;
 margin:0 auto;
 padding:0;
@@ -347,6 +347,16 @@ display:inline;
 
 h1 a {
 	color: #fff;
+}
+#header h1 a {
+	display: block;
+	background: url(img/Logo.png) center left no-repeat;
+	background-size: 160px 89px;
+	width: 160px;
+	height: 89px;
+	margin-top:5px;
+	text-indent: -9999px;
+	float: left;
 }
 
 .tagline {
@@ -1391,8 +1401,8 @@ h3#reply-title {
 }
 
 #Cart66scCartContents{
-	line-height: 60px;
-	padding: 0px 5px;
+	line-height: 80px;
+	padding: 0px 10px;
 	margin: 10px 0px;
 	background: rgb(229, 229, 229);
 	-webkit-border-radius: 5px;
