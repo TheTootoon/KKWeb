@@ -42,19 +42,6 @@
 
 <div id="wrapper">
 
-	<nav id="navbar">
-
-		<?php				
-			if (has_nav_menu('header')):
-				wp_nav_menu(array('theme_location' => 'header','menu_id'=>'','container'=>'','menu_class'=>'navigation'));
-			endif;
-		?>						
-
-		<ul class="left-nav">
-			<?php wp_register(); ?>
-			<li class="login"><?php wp_loginout(); ?></li>
-		</ul>		 
-	</nav>
 
 	<header id="header">
 		<div style="float:right;">
