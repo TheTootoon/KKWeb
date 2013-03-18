@@ -79,7 +79,7 @@ class IclUtility{
     }
     
 
-    function getRecentPostType($postType='wpsc-product',$page=1,$limit=5){
+    function getRecentPostType($postType='post',$page=1,$limit=5){
         global $wpdb,$post, $wpsc_query,$wp_query;
         $dataArray = array(     'post_type' => $postType, 
                                 'posts_per_page' => $limit,

@@ -42,24 +42,18 @@
 		// Display arrows only if there are more than 1 items
 		global $wp_query;
 		$total = $wp_query->post_count;
-		if ( $total > 4 ) :
 ?>		
-		<a class="prev" href="javascript:stepcarousel.stepBy('products', -1)">Précédent</a>
-		<a class="next" href="javascript:stepcarousel.stepBy('products', 1)">Suivant</a>
-<?php
-		endif;
-?>
+
 		<div id="products">
 			<div class="products-belt">
-
 <?php
 		$count = 1;
 		if ( have_posts() ) : while ( have_posts() ) : the_post(); 
 ?>		
 		<section class="products-panel">
 			<h3><a href="<?php echo get_permalink(get_the_ID())?>"><?php the_title()?></a></h3>
-			<p class="imgwrap"><?php echo $iclUtility->getProductImage( get_the_ID(), 175, 150); ?> </p>
-			<p><?php echo myExcerpts(false,20); ?></p>
+			<p class="imgwrap"><a href="<?php echo get_permalink(get_the_ID())?>"><?php echo $iclUtility->getProductImage( get_the_ID(), 175, 150); ?></a> </p>
+			<p><?php echo the_excerpt(); ?></p>
 			<p class="more-info"><a href="<?php echo get_permalink(get_the_ID())?>" class="medium awesome">Voir la page produit</a></p>
 		</section>
 <?php
