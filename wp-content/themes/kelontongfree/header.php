@@ -29,7 +29,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/green.css" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-	
+
 	<?php wp_head(); ?>
 	
 	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/script/stepcarousel.js"></script>
