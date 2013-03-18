@@ -584,7 +584,6 @@ z-index:20;
 
 #content-2 {
 width:860px;
-height:360px;
 position:relative;
 background:#191919;
 margin:20px auto 0;
@@ -596,7 +595,6 @@ border-radius:10px;
 
 #products {
 width:860px;
-height:360px;
 position:relative;
 overflow:auto;
 margin:0;
@@ -610,9 +608,7 @@ color:#fff;
 }
 
 .products-belt {
-position:absolute;
 width:840px;
-height:340px;
 left:0;
 top:0;
 background:url(img/v-border.gif) left center no-repeat;
@@ -620,7 +616,7 @@ background:url(img/v-border.gif) left center no-repeat;
 
 .products-panel {
 text-align:center;
-width:185px;
+width:180px;
 height:190px;
 float:left;
 overflow:hidden;

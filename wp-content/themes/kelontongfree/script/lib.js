@@ -24,14 +24,6 @@ autostep: {enable:true, moveby:1, pause:3000},
 defaultbuttons: {enable: false},
 contenttype: ['inline']
 });
-stepcarousel.setup({
-galleryid: 'products',
-beltclass: 'products-belt',
-panelclass: 'products-panel',
-panelbehavior: {speed:300, wraparound:true, persist:true},
-defaultbuttons: {enable: false},
-contenttype: ['inline']
-});
 
 /*
 
