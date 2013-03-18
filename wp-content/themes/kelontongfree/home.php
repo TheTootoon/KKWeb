@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<article id="content">
-		<h2 class="featured-title">En avant</h2>
+		<h2 class="featured-title">A la une !</h2>
 		
 <?php 
 		$iclUtility->getFeatureProduct(1,5); 
