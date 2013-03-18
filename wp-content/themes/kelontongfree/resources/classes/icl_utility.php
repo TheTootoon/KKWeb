@@ -26,41 +26,20 @@ class IclUtility{
                                 'paged' => $page) );
     }
 
-    function getStickyPostType($postType='wpsc-product',$sticktOption='sticky_products',$page=1,$limit=5,$rand=false){
-        global $wpdb,$post, $wpsc_query,$wp_query;
-	$sticky_array = get_option($sticktOption);
-        if (!is_array($sticky_array)){
-            $dataArray['posts_per_page'] = $limit;
-            query_posts($dataArray);
-            return false;
-        }
-        /*if (!$rand){
-            rsort( $sticky_array );
-        }*/
-        //$page = $page < 1 ? 1 : $page;
-        //$page_ = ($page-1)*$limit;
-        /* Get the 5 newest stickies (change 5 for a different number) */
-        //$sticky = array_slice( $sticky_array, $page_, $limit );
-
-
-        $dataArray = array(
-                                'tag' => 'featured',
-                                'posts_per_page' => $limit,
-                                'paged' => $page
-                         );
-        if ($rand){
-           $dataArray['orderby'] = 'rand';
-        }
-        
-        query_posts($dataArray);
-
-    }
-
     /* this function will get product feature */
     function getFeatureProduct($page=1,$limit=5,$rand=false){
         global $wpdb,$post, $wpsc_query,$wp_query;
-        
-        $this->getStickyPostType('wpsc-product','sticky_products',$page,$limit,$rand);
+
+         $dataArray = array(
+            'tag' => 'featured',
+            'posts_per_page' => $limit,
+            'paged' => $page
+         );
+        if ($rand){
+           $dataArray['orderby'] = 'rand';
+        }
+
+        query_posts($dataArray);
     }
 
     /* this function will get the post thumbnail */
