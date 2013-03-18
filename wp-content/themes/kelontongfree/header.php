@@ -58,27 +58,10 @@
 		<?php 
 				// display breadcrumb
 				breadcrumb_trail( array('before' => '', 'separator' => '&gt;' ) ); 	
-
-				// display list of wpec categories if wpec is installed.
-				if ( function_exists( 'wpsc_display_categories' ) ) :
 		?>
-
-				<a class="panel-button" href="#">Catégorie</a>
-				<ul id="panel">
-					<?php wpsc_start_category_query( array( 'category_group'=> 1, 'show_thumbnails'=> 0 ) ); ?>
-						<li>
-							<a href="<?php wpsc_print_category_url();?>" class="wpsc_category_link <?php wpsc_print_category_classes_section(); ?>"><?php wpsc_print_category_name();?></a>
-						</li>
-					<?php wpsc_end_category_query(); ?>
-				</ul>		
-
-		<?php else: // wpsc is not installed, so display list of categories instead. ?>
 
 				<a class="panel-button" href="#">Catégorie</a>
 				<ul id="panel">
 					<?php wp_list_categories('hierarchical=0&title_li='); ?>
 				</ul>
-
-		<?php endif; ?>
-                    
 	</nav>
