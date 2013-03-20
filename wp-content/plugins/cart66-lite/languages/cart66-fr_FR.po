@@ -5,15 +5,16 @@ msgstr ""
 "Project-Id-Version: cart66 v1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-18 17:06-0500\n"
-"PO-Revision-Date: 2011-07-25 17:30-0300\n"
+"PO-Revision-Date: 2013-03-21 00:24+0100\n"
 "Last-Translator: Anthony <anthony.lejuez@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Spanish\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-Basepath: .\n"
+"Language: es\n"
+"X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SearchPath-0: ..\n"
 "X-Poedit-SearchPath-1: .\n"
 
@@ -24,6 +25,20 @@ msgstr "Inventaire mis à jour"
 #: ../cart66-pro/gateways/Cart66GatewayAbstract.php:139
 msgid "Passwords do not match"
 msgstr "Mot de passe erroné "
+
+#: ../js/cart66Dialog.php:108 ../js/cart66Dialog.php:114
+#: ../models/Cart66Dialog.php:175
+msgid "Add to Cart"
+msgstr "Ajouter au panier"
+
+#: ../js/cart66Dialog.php:108 ../js/cart66Dialog.php:114
+#: ../models/Cart66Dialog.php:169 ../models/Cart66Dialog.php:175
+msgid "Cart66 Add To Cart Button"
+msgstr "Bouton ajouter au panier Cart66"
+
+#: ../js/cart66Dialog.php:110 ../models/Cart66ButtonManager.php:17
+msgid "Add To Cart"
+msgstr "Ajouter au panier"
 
 #: ../cart66-pro/js/cart66Dialog.php:238
 msgid "Pick a product"
@@ -101,8 +116,7 @@ msgstr "Bilans"
 msgid "Accounts"
 msgstr "Comptes"
 
-#: ../cart66-pro/models/Cart66.php:539
-#: ../cart66-pro/models/Cart66.php:540
+#: ../cart66-pro/models/Cart66.php:539 ../cart66-pro/models/Cart66.php:540
 msgid "Feature Levels"
 msgstr "Feature Levels"
 
@@ -111,8 +125,11 @@ msgid "Title"
 msgstr "Titre"
 
 #: ../cart66-pro/models/Cart66Common.php:701
-msgid "We're sorry.<br/>Your order could not be completed for the following reasons"
-msgstr "Nous sommes désolé.<br/>Votre commande n'a pu aboutir pour les raisons suivantes"
+msgid ""
+"We're sorry.<br/>Your order could not be completed for the following reasons"
+msgstr ""
+"Nous sommes désolé.<br/>Votre commande n'a pu aboutir pour les raisons "
+"suivantes"
 
 #: ../cart66-pro/models/Cart66Product.php:737
 msgid "Unable to upload file"
@@ -213,8 +230,13 @@ msgid "Forgot my password"
 msgstr "Mot de passe oublié"
 
 #: ../cart66-pro/views/account-login.php:27
-msgid "Enter your username and we will send you a new password.<br/> The email will be sent to the email address you used for your account"
-msgstr "Entrer votre nom d'utilisateur et nous vous enverrons un nouveau mot de passe.<br/> Un email vous sera envoyé à l'adresse mail de votre compte utilisateur"
+msgid ""
+"Enter your username and we will send you a new password.<br/> The email will "
+"be sent to the email address you used for your account"
+msgstr ""
+"Entrer votre nom d'utilisateur et nous vous enverrons un nouveau mot de "
+"passe.<br/> Un email vous sera envoyé à l'adresse mail de votre compte "
+"utilisateur"
 
 #: ../cart66-pro/views/cart-button.php:9
 #: ../cart66-pro/views/cart-button.php:16
@@ -254,8 +276,12 @@ msgid "Please Provide Your Zip Code"
 msgstr "Veuillez Indiquer Votre Code Postal"
 
 #: ../cart66-pro/views/cart.php:61
-msgid "Before you can checkout, please provide the zip code for where we will be shipping your order and click"
-msgstr "Avant de procéder au paiement, veuillez nous indiquer le code postal correspondant à l'adresse de livraison de votre commande."
+msgid ""
+"Before you can checkout, please provide the zip code for where we will be "
+"shipping your order and click"
+msgstr ""
+"Avant de procéder au paiement, veuillez nous indiquer le code postal "
+"correspondant à l'adresse de livraison de votre commande."
 
 #: ../cart66-pro/views/cart.php:61
 msgid "Calculate Shipping"
@@ -266,8 +292,14 @@ msgid "No Shipping Service Selected"
 msgstr "Aucun Service de Livraison Sélectionné"
 
 #: ../cart66-pro/views/cart.php:70
-msgid "We cannot process your order because you have not selected a shipping method. If there are no shipping services available, we may not be able to ship to your location"
-msgstr "Nous ne pouvons finaliser votre achat car vous n'avez sélectionné aucun service de livraison pour le moment. Si aucun service n'est disponible, cela signifie que nous ne pourrons livrer votre commande."
+msgid ""
+"We cannot process your order because you have not selected a shipping "
+"method. If there are no shipping services available, we may not be able to "
+"ship to your location"
+msgstr ""
+"Nous ne pouvons finaliser votre achat car vous n'avez sélectionné aucun "
+"service de livraison pour le moment. Si aucun service n'est disponible, cela "
+"signifie que nous ne pourrons livrer votre commande."
 
 #: ../cart66-pro/views/cart.php:78
 msgid "Too Many Subscriptions"
@@ -278,29 +310,29 @@ msgid "Only one subscription may be purchased at a time"
 msgstr "Seul un abonnement peut être acheté en même temps"
 
 #: ../cart66-pro/views/cart.php:93
-msgid "Your current subscription will be canceled when you purchase your new subscription"
-msgstr "Votre abonnement actuel sera annulé lorsque vous aurez achetez votre nouvel abonnement"
+msgid ""
+"Your current subscription will be canceled when you purchase your new "
+"subscription"
+msgstr ""
+"Votre abonnement actuel sera annulé lorsque vous aurez achetez votre nouvel "
+"abonnement"
 
-#: ../cart66-pro/views/cart.php:105
-#: ../cart66-pro/views/receipt.php:169
+#: ../cart66-pro/views/cart.php:105 ../cart66-pro/views/receipt.php:169
 #: ../cart66-pro/views/receipt_print_version.php:136
 msgid "Product"
 msgstr "Produit"
 
-#: ../cart66-pro/views/cart.php:106
-#: ../cart66-pro/views/receipt.php:170
+#: ../cart66-pro/views/cart.php:106 ../cart66-pro/views/receipt.php:170
 #: ../cart66-pro/views/receipt_print_version.php:137
 msgid "Quantity"
 msgstr "Quantité"
 
-#: ../cart66-pro/views/cart.php:108
-#: ../cart66-pro/views/receipt.php:171
+#: ../cart66-pro/views/cart.php:108 ../cart66-pro/views/receipt.php:171
 #: ../cart66-pro/views/receipt_print_version.php:138
 msgid "Item Price"
 msgstr "Prix de l'article"
 
-#: ../cart66-pro/views/cart.php:109
-#: ../cart66-pro/views/receipt.php:172
+#: ../cart66-pro/views/cart.php:109 ../cart66-pro/views/receipt.php:172
 #: ../cart66-pro/views/receipt_print_version.php:139
 msgid "Item Total"
 msgstr "Total des articles"
@@ -309,8 +341,7 @@ msgstr "Total des articles"
 msgid "Show Details"
 msgstr "Afficher les détails"
 
-#: ../cart66-pro/views/cart.php:172
-#: ../cart66-pro/views/cart.php:231
+#: ../cart66-pro/views/cart.php:172 ../cart66-pro/views/cart.php:231
 msgid "Shipping to"
 msgstr "Livré à"
 
@@ -322,17 +353,15 @@ msgstr "Indiquer votre code postal"
 msgid "via"
 msgstr "via"
 
-#: ../cart66-pro/views/cart.php:257
-#: ../cart66-pro/views/cart.php:268
+#: ../cart66-pro/views/cart.php:257 ../cart66-pro/views/cart.php:268
 msgid "Shipping Method"
 msgstr "Service de livraison"
 
 #: ../cart66-pro/views/cart.php:284
 msgid "Update Total"
-msgstr "Mettre à jour le total"
+msgstr "Actualiser"
 
-#: ../cart66-pro/views/cart.php:289
-#: ../cart66-pro/views/receipt.php:218
+#: ../cart66-pro/views/cart.php:289 ../cart66-pro/views/receipt.php:218
 #: ../cart66-pro/views/receipt_print_version.php:185
 msgid "Subtotal"
 msgstr "Sous-total"
@@ -341,8 +370,7 @@ msgstr "Sous-total"
 msgid "Coupon"
 msgstr "Coupon de réduction"
 
-#: ../cart66-pro/views/cart.php:314
-#: ../cart66-pro/views/receipt.php:242
+#: ../cart66-pro/views/cart.php:314 ../cart66-pro/views/receipt.php:242
 #: ../cart66-pro/views/receipt_print_version.php:209
 msgid "Tax"
 msgstr "Taxes"
@@ -355,19 +383,16 @@ msgstr "Disposez vous d'un coupon ?"
 msgid "Apply Coupon"
 msgstr "Utiliser un Coupon de Réduction"
 
-#: ../cart66-pro/views/cart.php:334
-#: ../cart66-pro/views/receipt.php:249
+#: ../cart66-pro/views/cart.php:334 ../cart66-pro/views/receipt.php:249
 #: ../cart66-pro/views/receipt_print_version.php:216
 msgid "Total"
 msgstr "Total"
 
-#: ../cart66-pro/views/cart.php:351
-#: ../cart66-pro/views/cart.php:376
+#: ../cart66-pro/views/cart.php:351 ../cart66-pro/views/cart.php:376
 msgid "Continue Shopping"
 msgstr "Continuer les Achats"
 
-#: ../cart66-pro/views/cart.php:365
-#: ../cart66-pro/views/checkout-form.php:311
+#: ../cart66-pro/views/cart.php:365 ../cart66-pro/views/checkout-form.php:311
 msgid "Checkout"
 msgstr "Effectuer le Paiement"
 
@@ -449,8 +474,12 @@ msgid "Phone"
 msgstr "Téléphone"
 
 #: ../cart66-pro/views/checkout-form.php:327
-msgid "Your receipt will be on the next page and also immediately emailed to you. <strong>We respect your privacy!</strong>"
-msgstr "Votre reçu sera visible sur la page suivante et vous sera directement envoyé par mail. <strong>Nous respectons votre vie privée!</strong>"
+msgid ""
+"Your receipt will be on the next page and also immediately emailed to you. "
+"<strong>We respect your privacy!</strong>"
+msgstr ""
+"Votre reçu sera visible sur la page suivante et vous sera directement envoyé "
+"par mail. <strong>Nous respectons votre vie privée!</strong>"
 
 #: ../cart66-pro/views/paypal-checkout.php:129
 msgid "You must configure your payment settings"
@@ -471,15 +500,22 @@ msgstr "Finalisé la Commande"
 #: ../cart66-pro/views/paypal-express.php:405
 #: ../cart66-pro/views/paypal-express.php:420
 msgid "Your receipt will be on the next page and also emailed to you"
-msgstr "Votre reçu apparaîtra sur la page suivante et vous sera également envoyé par mail."
+msgstr ""
+"Votre reçu apparaîtra sur la page suivante et vous sera également envoyé par "
+"mail."
 
 #: ../cart66-pro/views/paypal-expresscheckout.php:10
 msgid "PayPal Express Checkout Is Not Configured"
 msgstr "PayPal Express Checkout n'est pas configuré"
 
 #: ../cart66-pro/views/paypal-expresscheckout.php:11
-msgid "In order to use PayPal Express Checkout you must enter your PayPal API username, password and signature in the Cart66 Settings Panel"
-msgstr "Afin d'utiliser PayPal Express Checkout, vous devez entrer votre nom d'utilisateur, mot de passe et signature PayPal API dans le panneau de configuration de Cart 66"
+msgid ""
+"In order to use PayPal Express Checkout you must enter your PayPal API "
+"username, password and signature in the Cart66 Settings Panel"
+msgstr ""
+"Afin d'utiliser PayPal Express Checkout, vous devez entrer votre nom "
+"d'utilisateur, mot de passe et signature PayPal API dans le panneau de "
+"configuration de Cart 66"
 
 #: ../cart66-pro/views/receipt.php:107
 #: ../cart66-pro/views/receipt_print_version.php:77
@@ -520,4 +556,3 @@ msgstr "Votre Reçu"
 #: ../cart66-pro/views/receipt_print_version.php:70
 msgid "Order Number"
 msgstr "Numéro de Commande"
-

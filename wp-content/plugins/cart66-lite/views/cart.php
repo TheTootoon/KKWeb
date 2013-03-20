@@ -194,7 +194,7 @@ if($cartImgPath) {
           
           <?php $removeLink = get_permalink($cartPage->ID); ?>
           <?php $taskText = (strpos($removeLink, '?')) ? '&task=removeItem&' : '?task=removeItem&'; ?>
-          <a href='<?php echo $removeLink . $taskText ?>itemIndex=<?php echo $itemIndex ?>' title='Remove item from cart'><img src='<?php echo $removeItemImg ?>' alt="Remove Item" /></a>
+          <a href='<?php echo $removeLink . $taskText ?>itemIndex=<?php echo $itemIndex ?>' title="Retirer l'article du panier"><img src='<?php echo $removeItemImg ?>' alt="Remove Item" /></a>
           
         </td>
         <?php else: ?>
@@ -445,7 +445,7 @@ if($cartImgPath) {
         <?php if($cartImgPath): ?>
           <a href='<?php echo Cart66Session::get('Cart66LastPage'); ?>' class="Cart66CartContinueShopping" ><img src='<?php echo $continueShoppingImg ?>' /></a>
         <?php else: ?>
-          <a href='<?php echo Cart66Session::get('Cart66LastPage'); ?>' class="Cart66ButtonSecondary Cart66CartContinueShopping" title="Continue Shopping"><?php _e( 'Continue Shopping' , 'cart66' ); ?></a>
+          <a href='<?php echo Cart66Session::get('Cart66LastPage'); ?>' class="Cart66ButtonSecondary Cart66CartContinueShopping" title="Retourner à la boutique"><?php _e( 'Continue Shopping' , 'cart66' ); ?></a>
         <?php endif; ?>
 	</div>
 
@@ -476,7 +476,7 @@ if($cartImgPath) {
         <?php if($checkoutImg): ?>
           <a id="Cart66CheckoutButton" href='<?php echo $checkoutUrl; ?>'><img src='<?php echo $checkoutImg ?>' /></a>
         <?php else: ?>
-          <a id="Cart66CheckoutButton" href='<?php echo $checkoutUrl; ?>' class="Cart66ButtonPrimary" title="Continue to Checkout"><?php _e( 'Checkout' , 'cart66' ); ?></a>
+          <a id="Cart66CheckoutButton" href='<?php echo $checkoutUrl; ?>' class="Cart66ButtonPrimary" title="Aller au paiement"><?php _e( 'Checkout' , 'cart66' ); ?></a>
         <?php endif; ?>
     	</div>
     	<?php endif; ?>
@@ -503,9 +503,9 @@ if($cartImgPath) {
   <div id="emptyCartMsg">
   <h3><?php _e('Your Cart Is Empty','cart66'); ?></h3>
   <?php if($cartImgPath): ?>
-    <p><a href='<?php echo Cart66Session::get('Cart66LastPage'); ?>' title="Continue Shopping" class="Cart66CartContinueShopping"><img alt="Continue Shopping" class="continueShoppingImg" src='<?php echo $continueShoppingImg ?>' /></a>
+    <p><a href='<?php echo Cart66Session::get('Cart66LastPage'); ?>' title="Retourner à la boutique" class="Cart66CartContinueShopping"><img alt="Continue Shopping" class="continueShoppingImg" src='<?php echo $continueShoppingImg ?>' /></a>
   <?php else: ?>
-    <p><a href='<?php echo Cart66Session::get('Cart66LastPage'); ?>' class="Cart66ButtonSecondary" title="Continue Shopping"><?php _e( 'Continue Shopping' , 'cart66' ); ?></a>
+    <p><a href='<?php echo Cart66Session::get('Cart66LastPage'); ?>' class="Cart66ButtonSecondary" title="Retourner à la boutique"><?php _e( 'Continue Shopping' , 'cart66' ); ?></a>
   <?php endif; ?>
   </div>
   <?php
