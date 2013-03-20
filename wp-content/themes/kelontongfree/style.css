@@ -202,18 +202,6 @@ background:url(img/bg-top.jpg) top center no-repeat;
 margin:0 auto;
 }
 
-#wrapper:before {
-content:"";
-display:block;
-width:100%;
-height:31px;
-background:#000;
-position:absolute;
-top:0;
-left:0;
-z-index:-2;
-}
-
 ::-webkit-selection {
 background:#222;
 color:#fff;
@@ -1401,9 +1389,8 @@ h3#reply-title {
 }
 
 #Cart66scCartContents{
-	line-height: 80px;
-	padding: 0px 10px;
-	margin: 10px 0px;
+	padding: 10px;
+	margin: 30px 0px;
 	background: rgb(229, 229, 229);
 	-webkit-border-radius: 5px;
 	   -moz-border-radius: 5px;
