@@ -55,11 +55,11 @@
 	
 	<nav id="midbar">
 
-		<?php 
-				// display breadcrumb
-				breadcrumb_trail( array('before' => '', 'separator' => '&gt;' ) ); 	
-		?>
-
+	<div class="breadcrumb breadcrumbs">
+		<a href="<?php echo home_url('/'); ?>">Accueil</a> |
+		<a href="<?php echo home_url('/'); ?>">News</a> |
+		<a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>">Contact</a>
+	</div>
 				<a class="panel-button" href="#">Catégorie</a>
 				<ul id="panel">
 					<?php wp_list_categories('hierarchical=0&title_li='); ?>
